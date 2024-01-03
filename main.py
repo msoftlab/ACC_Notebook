@@ -270,4 +270,4 @@ def main(page: ft.Page):
 
 	page.add(body)	
 
-ft.app(target = main)# , view=ft.AppView.WEB_BROWSER)
+ft.app(target = main , view=ft.AppView.WEB_BROWSER)
